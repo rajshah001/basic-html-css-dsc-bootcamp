@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Hello HTML</title>
+
+    <!-- Importing CSS to your HTML -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Inserting CSS in the HTML itself -->
+    <style>
+        #header_css {
+            color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Inserting JS in the HTML itself -->
+    <script>
+        function inline_hello() {
+            console.log("Hello JavaScript from html");
+        }
+    </script>
+
+    <!-- Architecting our Webpage starts here now -->
+
+    <!-- Header Tags -->
+    <div class="center" style="width: 10rem;">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>
+    <!-- Horizontal Line -->
+    <hr>
+
+    <!-- Paragraph Tag -->
+    <p class="center">Lorem ipsum dolor sit amet, consectetur <b>adipiscing elit</b>, <i>sed do eiusmod tempor</i>
+        incididunt ut labore
+        et dolore
+        magna aliqua. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Scelerisque viverra mauris in
+        aliquam sem. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam.<br><br> Sed nisi lacus sed
+        viverra tellus
+        in hac habitasse platea.</p>
+
+    <!-- Horizontal Line -->
+    <hr>
+
+    <!-- Adding images to the HTML -->
+    <img src="https://cloudinary-res.cloudinary.com/image/upload/Animations_with_HTML5_2000x1100_v2.gif" alt="HTML5 GIF"
+        width="512" height="512" class="center">
+
+    <!-- Horizontal Line -->
+    <hr>
+
+    <!-- Working with Anchor Tags-->
+    <a href="https://www.google.com/" target="_blank" id="google_link" class="center" style="width: fit-content;">Visit
+        Google!</a>
+
+    <!-- Horizontal Line -->
+    <hr>
+
+    <!-- Unordered Lists -->
+    <div id="lists">
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <!-- Ordered Lists -->
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol>
+    </div>
+    <!-- Horizontal Line -->
+    <hr>
+
+    <!-- Creating Tables!! -->
+    <table class="center" style="width: fit-content;">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+    <!-- Horizontal Line -->
+    <hr>
+
+    <!-- Working with Forms -->
+    <form>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <input type="text" id="pass" name="pass"><br>
+        <input type="button" onclick="showMessage()" value="submit" />
+    </form>
+
+    <label>Form Output : </label>
+    <p id="form_value"></p>
+
+    <!-- Horizontal Line -->
+    <hr>
+
+    <!-- Importing JavaScript Files to include thier functions -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
